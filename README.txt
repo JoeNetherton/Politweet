@@ -1,5 +1,3 @@
-Student Number: 190592769
-
 The repository contains 4 Jupyter Notebook files as well as the raw dataset and a pre-trained Tweet2Vec model file. To test the code provided, run every cell in each notebook, this will create the files required to run the end-to-end system including the preprocessed data and the Tweet Embeddings.
 
 Ensure that all relevant dependencies are installed before running each Jupyter notebook.
@@ -33,13 +31,3 @@ Run notebooks in the following order:
 * This file contains the code to reduce the dimensions of the embeddings and visualise them on a 2d plane.
 * Select the required dataset using the "topic_dataset" variable; setting it to True to use a topic dataset. If this is True then modify the "topic" variable to select which topic to use
 * Run all cells to reduce the dimensions of these embeddings and to visualise them.
-
-
-Alternatively:
- 
-The preprocessed data and Embeddings (as well as copies of the Notebook Files) can also be accessed via the following link where they are hosted in the Google Drive:
-
-https://drive.google.com/drive/folders/1t-sGP6nJ6ZW_IH9de7BO_N9Vv3gLnGk3?usp=sharing
-
-In this case, please download and save the files into the folders in this repository under the same names as they are stored in the Google Drive.
-
